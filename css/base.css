@@ -1,0 +1,19 @@
+@import url("animate.min.css"); 								/* Animate */
+@import url("bootstrap.min.css"); 								  
+@import url("menu.css");										/* Menu styles */
+@import url("style.css");									
+@import url("responsive.css");									
+@import url("elegant_font/elegant_font.min.css");				
+@import url("fontello/css/fontello.min.css");					
+@import url("magnific-popup.css");								
+@import url("pop_up.css");										
+@import url("custom.css");										 
+
+/*
+How to change colors
+1) uncomment one of the color variation below
+DONE!
+*/
+
+/*@import url("color_scheme.css");					 	 			Your color scheme*/
+

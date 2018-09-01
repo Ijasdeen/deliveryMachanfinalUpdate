@@ -1,0 +1,7 @@
+#navbarArea{
+    background-color: rgb(27, 139, 249) !important;
+    color: white !important;
+}
+#myNavbar ul li a, .navbar-brand{
+    color: white !important; 
+}

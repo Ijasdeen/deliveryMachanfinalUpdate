@@ -1,0 +1,160 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 100%;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a, a:hover { text-decoration: none; }
+
+p a { border-bottom: 1px dotted; }
+
+
+
+
+
+
+/**********************************************************************************
+
+	Project Name: 
+	Project Description: 
+	File Name:
+	Author: Adi Purdila
+	Author URI: http://www.adipurdila.com
+	Version: 1.0.0
+	
+**********************************************************************************/
+/* ---------- TYPOGRAPHY ---------- */
+body {
+  font: 1em/1.5em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  color: #1f2225;
+}
+p a {
+  color: #2a9ccc;
+}
+p a:hover {
+  color: #1f2225;
+}
+h1,
+h2 {
+  font-family: Georgia, serif;
+  margin-bottom: 1em;
+}
+h1 {
+  font-size: 2em;
+  line-height: 3em;
+}
+h2 {
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+/* ---------- LAYOUT ---------- */
+ 
+#logo img {
+  margin: 2em 0;
+}
+.timer-area {
+  background: transparent url('../img/timer-area-pattern.png') left top;
+  text-align: center;
+  padding-top: 2em;
+  margin-bottom: 4em;
+}
+.timer-area h1 {
+  color: white;
+}
+/* ---------- SIGNUP ---------- */
+.form-wrapper {
+  border: 1px solid #dcdee0;
+  padding: .5em;
+  width: 30em;
+  margin: 1em auto;
+  overflow: hidden;
+  -webkit-border-radius: 13px;
+  border-radius: 13px;
+}
+.form-wrapper:hover,
+.form-wrapper:focus {
+  border: 1px solid #c1c5c8;
+}
+ 
+/* ---------- FOOTER ---------- */
+ 
+/* ---------- TIMER ---------- */
+ul#countdown li {
+  display: inline-block;
+  background: transparent url('../img/timer-piece.png') no-repeat left top;
+  width: 104px;
+  margin-bottom: 4em;
+  text-align: center;
+}
+ul#countdown li span {
+  font-size: 3em;
+  font-weight: bold;
+  color: #1f2225;
+  height: 108px;
+  line-height: 108px;
+  position: relative;
+}
+ul#countdown li span::before {
+  content: '';
+  width: 100%;
+  height: 1px;
+  border-top: 1px solid white;
+  position: absolute;
+  top: 31px;
+}
+ul#countdown li p.timeRefDays,
+ul#countdown li p.timeRefHours,
+ul#countdown li p.timeRefMinutes,
+ul#countdown li p.timeRefSeconds {
+  margin-top: 1em;
+  color: #909091;
+  text-transform: uppercase;
+  font-size: .875em;
+}
