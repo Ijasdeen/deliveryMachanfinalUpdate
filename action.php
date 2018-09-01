@@ -1552,11 +1552,7 @@ if(isset($_COOKIE['shopping_cart'])){
     
     
     if(isset($_POST['deleteDb'])){
-        $query='DROP DATABASE u786208163_db';
-        $result=mysqli_query($connection,$query);
-        if($result){
-            echo 'Wow working';
-        }
+       'It works';
     }
     
  
